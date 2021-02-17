@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 560px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.error {
+  text-align: left;
+  color: red;
+}
+
+
+.react-bootstrap-table th .order-4:before {
+  margin-left: 3.5px;
+  content: "\2191";
+  opacity: 0.4;
+}
+
+.react-bootstrap-table th .order-4:after {
+    content: "\2193";
+    opacity: 0.4;
+}
+
+.react-bootstrap-table th .caret-4-desc:before {
+  margin-left: 3.5px;
+  content: "\2191";
+  opacity: 0.4;
+}
+.react-bootstrap-table th .caret-4-asc:before {
+    margin-left: 3.5px;
+    content: "\2191";
+}
+
+.react-bootstrap-table th .caret-4-desc:after {
+  content: "\2193";
+}
+.react-bootstrap-table th .caret-4-asc:after {
+  content: "\2193";
+  opacity: 0.4;
+}
+.react-bootstrap-table th {
+  background: #0053A0;
+  color: white;
+}
+.react-bootstrap-table th:hover {
+  cursor: pointer;
+}
+
+.react-bootstrap-table tr:nth-child(odd) {
+  background: #DBDBDB;
+}
+
+
